@@ -24,12 +24,12 @@ function App() {
         <Route path='/index/contactUs' element={<ContactUs />} /> */}
 
 
-        <Route exact path='/index/'><Home /></Route>
-        <Route path='/index/main'><Main /></Route>
-        <Route path='/index/mlproj'><MLProj /></Route>
-        <Route path='/index/webproj'><WebProj /></Route>
-        <Route path='/index/otherproj'><OtherProj /></Route>
-        <Route path='/index/contactus'><ContactUs /></Route>
+        <Route exact path='/'><Home /></Route>
+        <Route path='/main'><Main /></Route>
+        <Route path='/mlproj'><MLProj /></Route>
+        <Route path='/webproj'><WebProj /></Route>
+        <Route path='/otherproj'><OtherProj /></Route>
+        <Route path='/contactus'><ContactUs /></Route>
 
 
       </Switch>

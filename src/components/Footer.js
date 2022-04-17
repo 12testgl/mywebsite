@@ -14,9 +14,9 @@ const Footer = () => {
                     <a href="https://www.youtube.com/channel/UCJ58XYpCLKXPAjnLvO6CUlw" target="_blank"><i class="icon ion-social-youtube"></i></a>
                 </div>
                 <ul class="list-inline">
-                    <li class="list-inline-item"><NavLink to="/index">Home</NavLink></li>
-                    <li class="list-inline-item"><NavLink to="/index/mlproj">Projects</NavLink></li>
-                    <li class="list-inline-item"><NavLink to="/index/contactUs">Contact Us</NavLink></li>
+                    <li class="list-inline-item"><NavLink to="/">Home</NavLink></li>
+                    <li class="list-inline-item"><NavLink to="/mlproj">Projects</NavLink></li>
+                    <li class="list-inline-item"><NavLink to="/contactUs">Contact Us</NavLink></li>
 
                 </ul>
                 <p class="copyright">&#169;Copyright 2022 K HUNNURJI RAO. All Rights Reserved.</p>

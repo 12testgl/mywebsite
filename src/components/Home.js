@@ -21,7 +21,7 @@ const Home = () => {
 
                     <div class="col-md-4 border-right">
                         <div class="cards">
-                            <NavLink to="/index/mlproj" className="div-navlink">
+                            <NavLink to="/mlproj" className="div-navlink">
 
                                 <div class="first bg-white p-4 text-center"><img className='intro-img' src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-machine-learning-robotics-flaticons-lineal-color-flat-icons.png" alt='img' />
                                     <h5>Machine Learning</h5>
@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                     <div class="col-md-4 border-right">
                         <div class="cards">
-                            <NavLink to="/index/webproj" className="div-navlink">
+                            <NavLink to="/webproj" className="div-navlink">
                                 <div class=" second bg-white p-4 text-center"> <img className='intro-img' src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-web-development-internet-marketing-flaticons-lineal-color-flat-icons-3.png" alt='img' />
                                     <h5>Web Development</h5>
                                     <p class="line">Projects related to HTML, CSS, BootStrap, React JS, MongoDB, Python Flask</p>
@@ -42,7 +42,7 @@ const Home = () => {
                     </div>
                     <div class="col-md-4">
                         <div class="cards">
-                            <NavLink to="/index/otherproj" className="div-navlink">
+                            <NavLink to="/otherproj" className="div-navlink">
 
                                 <div class=" third bg-white p-4 text-center"> <img className='intro-img' src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/344/external-ai-security-cyber-attack-hacking-smashingstocks-hand-drawn-black-smashing-stocks-2.png" alt='img' />
                                     <h5>AI Application</h5>
