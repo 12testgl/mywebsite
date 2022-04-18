@@ -14,15 +14,17 @@ const Navbar = () => {
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item active"><NavLink className="nav-link" to="/">Home</NavLink></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <NavLink class="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Projects
-                                    </a>
+                                    </NavLink>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="/mlproj">Machine Learning</a>
-                                        <a class="dropdown-item" href="/webproj">Web Development</a>
-                                        <a class="dropdown-item" href="/otherproj">Other Projects(Advanced)</a>
+                                        <NavLink class="dropdown-item a-navlink" to="/mlproj"><span className='a-navlink'>Machine Learning</span><br /></NavLink>
+                                        <NavLink class="dropdown-item a-navlink" to="/webproj"><span className='a-navlink'>Web Development</span><br /></NavLink>
+                                        <NavLink class="dropdown-item a-navlink" to="/otherproj"><span className='a-navlink'>Other Projects</span><br /></NavLink>
                                     </div>
                                 </li>
+
+
                                 <li className="nav-item"><NavLink className="nav-link" to="/contactUs">Contact Us</NavLink></li>
                                 {/* <li className="nav-item"><NavLink className="nav-link disabled" to="#">Disabled</NavLink></li> */}
                             </ul>

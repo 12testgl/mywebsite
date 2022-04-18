@@ -6,9 +6,13 @@
 }
 
 .a-navlink {
-  text-decoration: none;
-  color: #000;
+  text-decoration: none !important;
+  color: #000 !important;
+}
 
+.a-navlink:hover {
+  text-decoration: none;
+  color: #000 !important;
 }
 
 
