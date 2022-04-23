@@ -24,7 +24,10 @@ const MLProj = () => {
                     <br />
                     <p>{p.description}</p>
                     <br />
-                    <img src={p.imageSrc} className="img-fluid" alt="img" />
+                    {p.imageSrc &&
+                        <img src={p.imageSrc} className="img-fluid" alt="img" />
+
+                    }
                     <br />
                     <br />
                 </li>

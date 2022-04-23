@@ -18,13 +18,11 @@ const Navbar = () => {
                                         Projects
                                     </NavLink>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <NavLink class="dropdown-item a-navlink" to="/mlproj"><span className='a-navlink'>Machine Learning</span><br /></NavLink>
-                                        <NavLink class="dropdown-item a-navlink" to="/webproj"><span className='a-navlink'>Web Development</span><br /></NavLink>
-                                        <NavLink class="dropdown-item a-navlink" to="/otherproj"><span className='a-navlink'>Other Projects</span><br /></NavLink>
+                                        <a class="dropdown-item" href="#" ><NavLink to="/mlproj" className='a-navlink'>Machine Learning</NavLink></a>
+                                        <a class="dropdown-item" href="#"><NavLink to="/webproj" className='a-navlink'>Web Development</NavLink></a>
+                                        <a class="dropdown-item" href="#"><NavLink to="/otherproj" className='a-navlink'>Other projects</NavLink></a>
                                     </div>
                                 </li>
-
-
                                 <li className="nav-item"><NavLink className="nav-link" to="/contactUs">Contact Us</NavLink></li>
                                 {/* <li className="nav-item"><NavLink className="nav-link disabled" to="#">Disabled</NavLink></li> */}
                             </ul>

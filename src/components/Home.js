@@ -10,7 +10,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-8 mx-auto">
                             <h2> I'M <b>K HUNNURJI RAO</b></h2>
-                            <p className="text-muted lead">Welcome to this website, here you can find projects related to Machine Learning, Deep Learning & Natural Language Processing. Not only in AI, you can also find projects related to web technologies such as Bootstrap, React JS, MongoDB, python Flask. Please have a look at the projects you are interested in. </p>
+                            <p className="text-muted lead">Welcome to this website, here you can find projects related to Machine Learning, Deep Learning & Natural Language Processing. Not only in AI, you can also find projects related to web technologies such as Bootstrap, React JS, MongoDB, python Flask. Please have a look at the projects <span style={{ color: "black" }}>you are interested in</span></p>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,8 @@ const Home = () => {
                             <NavLink to="/otherproj" className="div-navlink">
 
                                 <div class=" third bg-white p-4 text-center"> <img className='intro-img' src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/344/external-ai-security-cyber-attack-hacking-smashingstocks-hand-drawn-black-smashing-stocks-2.png" alt='img' />
-                                    <h5>AI Application</h5>
-                                    <p class="line">Projects related to the combination of Web application & Machine Learning</p>
+                                    <h5>Other Python Projects</h5>
+                                    <p class="line">Projects related python, web scrapping, etc</p>
                                 </div>
 
                             </NavLink>
@@ -54,6 +54,16 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <section className="py-5 section-1">
+                <div className="container py-5 text-center">
+                    <div className="row">
+                        <div className="col-lg-8 mx-auto">
+                            <p className=" lead" style={{ color: "black" }}>If you didn't find the projects you are looking for! Please contacts us.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
