@@ -34,8 +34,8 @@ const Home = () => {
                         <div class="cards">
                             <NavLink to="/webproj" className="div-navlink">
                                 <div class=" second bg-white p-4 text-center"> <img className='intro-img' src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-web-development-internet-marketing-flaticons-lineal-color-flat-icons-3.png" alt='img' />
-                                    <h5>Web Development</h5>
-                                    <p class="line">Projects related to HTML, CSS, BootStrap, React JS, MongoDB, Python Flask</p>
+                                    <h5>Web/App Development</h5>
+                                    <p class="line">Projects related to HTML, CSS, BootStrap, React JS, MongoDB, Python Flask and React Native</p>
                                 </div>
                             </NavLink>
                         </div>
